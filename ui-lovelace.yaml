@@ -1,0 +1,17 @@
+title: SmartKamper
+
+views:
+  - title: Home
+    path: home
+    icon: mdi:home
+    cards:
+      - type: markdown
+        content: |
+          # 🚐 SmartKamper
+          ## Wersja developerska v0.1
+
+      - type: entities
+        title: Status systemu
+        entities:
+          - entity: sensor.smartkamper_status
+            name: Status
