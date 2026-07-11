@@ -6,29 +6,36 @@ views:
     icon: mdi:home
 
     cards:
-
       - type: markdown
         content: |
           # 🚐 SmartKamper
-          ### Panel główny
+          ## Panel główny
 
       - type: grid
-        columns: 4
+        columns: 2
         square: false
-        cards:
 
-          - type: tile
+        cards:
+          - type: button
             name: Akumulator
             icon: mdi:car-battery
 
-          - type: tile
+          - type: button
             name: Solary
             icon: mdi:solar-power
 
-          - type: tile
-            name: Wewnątrz
-            icon: mdi:home-thermometer
+          - type: button
+            name: Woda
+            icon: mdi:water
 
-          - type: tile
-            name: Na zewnątrz
+          - type: button
+            name: Temperatura
             icon: mdi:thermometer
+
+          - type: button
+            name: Zasilanie
+            icon: mdi:power-plug
+
+          - type: button
+            name: Ustawienia
+            icon: mdi:cog
